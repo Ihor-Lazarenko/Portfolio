@@ -1,0 +1,491 @@
+	#1
+Summary:		The "Popular" button is cropped on the main page
+Description:	The "Popular" button is not shown completely on the main page
+Environment:	Google Nexus 5,	Android 5.1
+Priority:		high	
+Severity:		minor
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Swipe down to the "Popular" button
+3) Look at the view of this button
+
+Actual result:
+The "Popular" button is cropped on the main page.
+
+Expected result:
+The "Popular" button is shown completely on the main page.
+Additional Information:	This bug can be reprodused in the landscape and portrait modes also for all elements on the left sidebars of all pages
+
+	#2
+Summary: 		The left banner is cropped on the main page in the portrait mode
+Description:	The left banner is not shown completely on the main page in the portrait mode
+Environment:	Google Nexus 5,	Android 5.1
+Priority:		high
+Severity:		minor	
+Steps To Reproduce:	
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Swipe down to banners
+3) Look at the view of left banner
+
+Actual result:
+The left banner is cropped on the main page in the portrait mode.
+
+Expected result:
+The left banner is shown completely on the main page in the portrait mode.
+
+Additional Information:	This bug can be reprodused in the portrait mode also for banners of all pages
+
+	#3
+Summary: 		The large image of product isn't shown on product's page after tapping the "View larger" button
+Description:	The large image of product isn't shown on product's page after tapping the "View larger" button
+Environment:	Google Nexus 5,	Android 5.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce	
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Swipe down to the products
+3) Tap the any item
+4) Tap the "View larger" button on the item's picture
+5) Look at the result 
+
+Actual result:
+The large image of product isn't shown on product's page after tapping the "View larger" button.
+
+Expected result:
+The large image of product is shown on product's page after tapping the "View larger" button.
+
+Additional Information:	This bug can be reprodused in the landscape and portrait modes also for all pictures of all products
+
+	#4
+Summary: 		The sorting works improperly on the "T-shirts" page after choosing of sorting by the price (descending)
+Description:	The sorting works improperly on the "T-shirts" page after choosing of sorting by the price: Highest first
+Environment:	Google Nexus 5,	Android 5.1
+Priority:		normal	
+Severity:		major	
+
+Steps To Reproduce	
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Swipe down to the "Categories" menu
+3) Tap the "Categories" menu
+4) Tap the "T-shirts" link
+5) Swipe down to the "Sort by" list
+6) Choose sorting by price: Highest first
+7) Look at the order of the prices of the products 
+
+Actual result:
+The products aren't sorted by price descending on the "T-shirts" page after choosing of sorting by the price: Highest first.
+
+Expected result:
+The products are sorted by price descending on the "T-shirts" page after choosing of sorting by the price: Highest first.
+
+	#5
+Summary: 		The preview pictures of products on the main page are displayed in low quality
+Description:	The preview pictures of products on the main page are displayed in low quality	
+Environment:	Google Nexus 5,	Android 5.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce	
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Swipe down to the preview pictures of products
+3) Look at the quality of the pictures 
+
+Actual result:
+The preview pictures of products on the main page are displayed in low quality
+
+Expected result:
+The preview pictures of products on the main page are displayed in high quality
+
+Additional Information:	This bug can be reprodused in the landscape and portrait modes an on all pages
+
+	#6
+Summary: 		The "Choose file" button is unclicable on the "Contact us" page.
+Description:	The "Choose file" button is unclicable on the "Contact us" page.
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps to reproduce:
+1) Open the web site: http://prestashop.qatestlab.com.ua
+2) Click the "Contact us" button
+3) Click the "Choose file" button
+4) Look at the result and the сursor type
+
+Actual result:
+The "Choose file" button is unclicable ( Cursor is default) on the "Contact us" page.
+
+Expected result:
+The "Choose file" button is clicable (window for choosing file is displayed. Cursor is pointer) on the "Contact us" page.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#7
+Summary: 		The "Fashion Manufacturer" link is improperly aligned to it's check box in the left sidebar of the "Women" page
+Description:	The "Fashion Manufacturer" link is improperly aligned to it's check box in the left sidebar of the "Women" page.
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Women" button
+3) Take a look at the "Fashion Manufacturer" link's position on this page
+
+Actual result:
+The "Fashion Manufacturer" link is improperly aligned to it's check box in the left sidebar of the "Women" page.
+
+Expected result:
+The "Fashion Manufacturer" link is properly aligned to it's check box (they are located on the one sring) in the left sidebarof the "Women" page.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+This bug can be reproduced also on pages "Dresses" and "T-shirts".
+
+	#8
+Summary:		The "Cart" button is improperly aligned to other elements in the page's header.
+Description:	The "Cart" button is improperly vertically and horizontally aligned to other elements on all pages.
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Take a look at the "Cart" button's position
+3) Click the "Dresses" button
+4) Take a look at the "Cart" button's position on this page
+
+Actual result:
+The "Cart" button is improperly vertically and horizontally aligned to other elements in the page's header.
+
+Expected result:
+The "Cart" button is properly vertically and horizontally aligned to other elements in the page's header.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#9
+Summary:		The title of the web page is absent on the page's tab
+Description:	The title of the web page is absent on the page's tab	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site: http://prestashop.qatestlab.com.ua 
+2) Take a look at the page's tab
+
+Actual result:
+The title of the web page is absent on the page's tab. Only url is shown.
+
+Expected result:
+The title of the web page is present on the page's tab.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#10
+Summary: 		The syntax error is present in the title on the tab of "Contact us" page.
+Description:	The syntax error is present in the title on the tab of "Contact us" page.
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Click the "Contact us" button
+3) Take a look at the page's tab
+
+Actual result:
+The syntax error ("Сяжитесь с нами") is present in the title on the tab of "Contact us" page.
+
+Expected result:
+The syntax error is absent in the title on the tab of "Contact us" page. The title is correct: "Свяжитесь с нами".
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#11
+Summary:		The "Summer Dresses" link is improperly aligned to it's check box in the left sidebar of the "Dresses" page.
+Description:	The "Summer Dresses" link is improperly aligned to it's check box in the left sidebar of the "Dresses" page.
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Dresses" button
+3) Take a look at the "Summer Dresses" link's position on this page
+
+Actual result:
+The "Summer Dresses" link is improperly aligned to it's check box in the left sidebar of the "Dresses" page.
+
+Expected result:
+The "Summer Dresses" link is properly aligned to it's check box (they are located on the one sring) in the left sidebar of the "Dresses" page.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#12
+Summary: 		It's possible to update the account with only white spaces in the first name after clicking the "Save" button
+Description:	It's possible to update the account with only white spaces in the first name after clicking the "Save" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Sign in 
+3) Click the button with the user's name in the right part of page's header
+4) Click the "My perconal information" button in the left sidebar
+5) Type to the "First name" text field only white spaces
+6) Type and confirm the new password to the "Password" text field
+7) Click the "Save" button
+8) Pay attention to the message after saving of account
+
+Actual result:
+The user's account was saved, message "Your personal information has been successfully updated" appeared on account's page after clicking the "Save" button.
+
+Expected result:
+The user's account wasn't saved, message "Invalid symbols in the first name!" appeared on account's updating page after typing of the invalid first name.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+This bug can be also reproduced in the "Last name" field.
+
+	#13
+Summary: 		It's possible to update the account with the white spaces in the begining of the first name after clicking the "Save" button
+Description:	It's possible to update the account with the white spaces in the begining of the first name after clicking the "Save" button
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site: http://prestashop.qatestlab.com.ua [^]
+2) Sign in 
+3) Click the button with the user's name in the right part of page's header
+4) Click the "My perconal information" button in the left sidebar
+5) Type to the "First name" text field the white spaces in the begining: " test"
+6) Type and confirm the new password to the "Password" text field
+7) Click the "Save" button
+8) Pay attention to the message after saving of account
+
+Actual result:
+The user's account was saved, message "Your personal information has been successfully updated" appeared on account's page after clicking the "Save" button.
+
+Expected result:
+The user's account wasn't saved, message "Invalid symbols in the first name!" appeared on account's updating page after typing of the invalid first name.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+This bug can be also reproduced in the "Last name" field.
+
+	#14
+Summary: 		The "Evening Dresses" link is improperly aligned to it's check box in the left sidebar when the "Dresses" page is opened
+Description:	The "Evening Dresses" link is improperly aligned to it's check box in the left sidebar when the "Dresses" page is opened 	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua [^]
+2) Click the "Dresses" button
+3) Take a look at the "Evening Dresses" link's position on this page
+
+Actual result:
+The "Evening Dresses" link is improperly aligned to it's check box in the left sidebar when the "Dresses" page is opened.
+
+Expected result:
+The "Evening Dresses" link is properly aligned to it's check box (they are located on the one sring) in the left sidebar when the "Dresses" page is opened.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#15
+Summary: 		It's possible to register account with the white spaces in the begining of the "First name" field after clicking the "Register"
+Description:	It's possible to register new user with the white spaces in the begining of the first name after clicking the "Register" button
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Sign in" button
+3) Type email in correcr form (test111@test111.test111) to the "Email address" text field 
+4) Type to the "First name" text field some text with the white spaces in the begining: " test"
+5) Type some text to the "Last name" text field ("test")
+6) Type the password to the "Password" text field
+7) Click the "Register" button
+8) Look at the message after registration
+
+Actual result:
+The user's account was created, message "Your account has been created" is shown on the account's page after clicking the "Register" button.
+
+Expected result:
+The user's account wasn't created, message "Invalid symbols in the first name!" is shown on the user's registration page after typing of the invalid first name.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+This bug can be also reproduced in the "Last name" field.
+
+	#16
+Summary: 		It's possible to register new account with only white spaces in the "First name" field after clicking the "Register" button
+Description:	It's possible to register new account with only white spaces in the "First name" field after clicking the "Register" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Sign in" button
+3) Type email in correcr form (test111@test111.test1) to the "Email address" text field 
+4) Type to the "First name" text field only the white spaces
+5) Type some text to the "Last name" text field ("test")
+6) Type the password to the "Password" text field
+7) Click the "Register" button
+8) Pay attention to the message after registration
+
+Actual result:
+The user's account was created, message "Your account has been created" is shown on account's page after clicking the "Register" button.
+
+Expected result:
+The user's account wasn't created, message "Invalid symbols in the first name!" is shown on user's registration page after typing of the invalid first name.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+This bug can be also reproduced in the "Last name" field.
+
+	#17
+Summary: 		The results of search do not match to the searching request on the "Search" page after clicking the "Search" button
+Description:	The results of search do not match to the searching request on the "Search" page after clicking the "Search" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:	
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Type the searching request to the search text field: "Printed Dress"
+3) Click the "Search" button 
+4) Look at the last result of the search
+
+Actual result:
+The results of search do not match to the searching request on the "Search" page after clicking the "Search" button.
+
+Expected result:
+Only names of items contain the searching request are displayed in results of search after clicking the "Search" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#18
+Summary: 		It's possible to create new account with special symbols in the "Password" field after clicking the "Register" button
+Description:	It's possible to create new user's account with special symbols in the password on the "Your personal information" block after clicking the "Register" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Sign in" button
+3) Type to the "Email address" field (in the "Create an account" block) correct email 
+4) Click the "Create an account" button
+5) Type to the "First name" and "Last name" fields correct data (using the latin or cirillyc symbols, without special symbols and white spaces, words with length no more than 32 symbols)
+6) Type to the "Password" field special symbols like [|]~!@/*$%^&#()?<>'"
+7) Click the "Register" button
+8) Look at the message after registration
+
+Actual result:
+The new account was created after clicking the "Register" button.
+
+Expected result:
+The message "Invalid password" is displayed on the "CREATE AN ACCOUNT" page after clicking the "Register" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#19
+Summary: 		The "Forgot password?" link is absent on the "Authentication" page after clicking the "Sign in" button
+Description:	The "Forgot password?" link is absent in the "Already registred?" block of the "Authentication" page after clicking the "Sign in" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Click the "Sign in" button
+3) Look at the elements of the "Already registred?" block
+
+Actual result:
+The "Forgot password?" link is absent on the "Authentication" page after clicking the "Sign in" button.
+
+Expected result:
+The "Forgot password?" link is present on the "Authentication" page after clicking the "Sign in" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#20
+Summary: 		It's possible to create new account with only white spaces in the "Password" field after clicking the "Register" button
+Description:	It's possible to create new account with only white spaces in the "Password" field after clicking the "Register" button	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Sign in" button
+3) Type to the "Email address" field (in the "Create an account" block) correct email 
+4) Click the "Create an account" button
+5) Type to the "First name" and "Last name" fields correct data (using the latin or cirillyc symbols, without special symbols and white spaces, words with length no more than 32 symbols)
+6) Type to the "Password" field only 5 white spaces
+7) Click the "Register" button
+8) Look at the message after registration
+
+Actual result:
+The new account was created after clicking the "Register" button.
+
+Expected result:
+The message "Invalid password" is displayed on the "CREATE AN ACCOUNT" page after clicking the "Register" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#21
+Summary: 		It's possible to create new account with cirillyc symbols in the "Email address" field after clicking the "Register" button
+Description:	It's possible to create new user's account with cirillyc symbols in the email on the "Your personal information" after clicking the "Register" button
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua 
+2) Click the "Sign in" button
+3) Type to the "Email address" field (in the "Create an account" block) email with cirillyc symbols 
+4) Click the "Create an account" button
+5) Type to the "First name" and "Last name" fields correct data (using the latin or cirillyc symbols, without special symbols and white spaces, words with length no more than 32 symbols)
+6) Type to the "Password" field correct data (five characters minimum, without special symbols and white spaces)
+7) Click the "Register" button
+8) Look at the message after registration
+
+Actual result:
+The new account was created after clicking the "Register" button.
+
+Expected result:
+The message "Invalid email" is displayed on the "CREATE AN ACCOUNT" page after clicking the "Register" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+	#22
+Summary: 		It's impossible to send item to the email address on the item's page
+Description:	It's impossible to send item to the email address on the item's page	
+Environment:	Windows 7/64, Mozilla Firefox 51.0.1
+Priority:		high	
+Severity:		major	
+
+Steps To Reproduce:
+1) Open the web site http://prestashop.qatestlab.com.ua
+2) Click the "Dresses" button
+3) Choose the "Printed Dress" item
+4) Click the "Send to a friend " link
+5) Type the name (Test) and email (ya.testemail2102@yandex.ru) to the conforming text fields 
+6) Click the "Send" button
+7) Check the presence of letter with item in the email
+
+Actual result:
+Letter wasn't delivered to the email after clicking the "Send" button.
+
+Expected result:
+Letter was delivered to the email after clicking the "Send" button.
+
+Additional Information:	This bug can be reproduced in the next browsers: IE11, Opera 43.0, Firefox 51.0.1.
+
+
+
+
+
