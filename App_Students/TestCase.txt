@@ -1,0 +1,66 @@
+Testing "Name" text field
+
+Summary:
+Text field "Name" will be tested. Fields "Phone" and "Role"  are correctly working.
+
+#	Step actions																			Expected Results		 	 				
+1	Open the "App students" page (type to the 												Browser-application is opened, user list is visible in the left part of window, 
+adress string: http://soft.it-hillel.com.ua:3000 )											"Add" (+) button (in the bottom of list) is available .
+
+2	Click "Add" button (+) in the bottom of user list										User creation form is opened in the window. Text fields "Name" and "Phone", 
+																							"Role" switch, "Create" button are available.
+
+3	Input to the "Name" field name which consists of  letters only ("NewUser"). 			User was created and appeared in a bottom of contact list.
+Input to the "Phone" field correct phone number ("+380953245684"). 
+Choose user`s role ("Student"). Click "Create" button.
+
+4	Click "+" button, fill in the  "Phone" and "Role" fields with the 						User wasn't created. Error message appeared: "Name field is required. Please, try again.".
+same data again, but leave "Name" field without data. Click "Create" button.
+
+5	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User was successfully created only with symbols: " ' ", ".", "-" and it appeared in a user list. 
+again, but type to the "Name" field symbol “. Repeat creation with using 					In other cases, user wasn't created and an error message appeared: "Invalid name. Please, try again.".
+next symbols [|]’~<>!-@/*$%^&#\()?,. Click "Create" button.
+
+6	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User wasn't created. Error message appeared: "Invalid name. Please, try again.".
+again, but type to the "Name" field only white spaces. Click "Create" button.
+
+7	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User was created and appeared in a bottom of contact list.
+again, but paste to the "Name" field some text from another field or text 
+document (use only context menu). Click "Create" button.
+
+8	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User was created and appeared in a bottom of contact list.
+again, but paste to the "Name" field some text from another field or text 
+document (use only combinations Ctrl+C, Ctrl+V). Click "Create" button.
+
+9	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User wasn't created. Error message appeared: "Invalid name. Please, type the name less than 25 characters.".
+again, but paste to the "Name" field some large text fragment 
+(more then 250 letters). Click "Create" button.
+
+10	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User was created and appeared in a bottom of contact list.
+again, but paste to the "Name" field username that consists of  25. 
+Click "Create" button.
+
+11	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User wasn't created. Error message appeared: "Invalid name. Please, type the name less than 25 characters.".
+again, but paste to the "Name" field username that consists of  26. 
+Click "Create" button.
+
+12	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User was created and appeared in a bottom of contact list.
+again, but type to the "Name" field some short name (two letters). 
+Click "Create" button.
+
+13	Click "+" button, fill the  "Phone" and "Role" fields with the same data 				User wasn't created. Error message appeared: "Invalid name. Please, try again.".
+again, but type to the "Name" field only one letter. Click "Create" button.
+
+14	Click "+" button, fill the "Name", "Phone" and "Role" fields with the data 				User was created and appeared in a bottom of contact list.
+of existing user from the list. Click "Create" button.
+
+15	Click "+" button, fill the  "Phone" and "Role" fields with the correct data, 			User wasn't created. Error message appeared: "Invalid name. Please, try again.".
+but type to the "Name" field name with using Cyrillic letters. Click "Create" button.
+
+16	Click "+" button, fill the "Phone" and "Role" fields with the correct data, 			User wasn't created. Error message appeared: "Invalid name. Please, try again.".
+but type to the "Name" field some HTML tags like: " <b> a </b> " or 
+" <script> alert('a'); </script> ". Click "Create" button.
+
+17	Click "+" button, fill the  "Phone" and "Role" fields with the correct data, 			User wasn't created. Error message appeared: "Invalid name. Please, try again.".
+but fill in the "Name" field with numerals. Click "Create" button.
+
