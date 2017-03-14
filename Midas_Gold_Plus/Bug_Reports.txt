@@ -1,0 +1,62 @@
+	#1
+Summary: 		The frame is improperly aligned to the money indicator in the top of window arter clicking the "New game" button
+Description:	The green frame is improperly aligned to the money indicator in the top of window arter clicking the "New game" button (Midas Gold Plus)	
+Environment: 	Windows 7/64
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Launch the game
+2) Click the "New game" button 
+3) Take a look at the indicator in the top of window
+
+Actual result:
+The frame is improperly aligned to the money indicator in the top of window arter clicking the "New game" button.
+
+Expected result:
+The frame is properly aligned to the money indicator in the top of window arter clicking the "New game" button.
+
+	#2
+Summary: 		The "Lvl up" item is covered by the "Blue stone" object on the main window after clicking the "King Midas" item
+Description:	The "Lvl up" item is covered by the "Blue stone" object on the main window after clicking the "King Midas" item
+Environment: 	Windows 7/64
+Priority:		high	
+Severity:		minor	
+
+Steps To Reproduce:
+1) Launch the game
+2) Click the "New game" button 
+3) Click to the "King Midas" item 
+4) Take a look at the position of the "Blue stone" object
+
+Actual result:
+The "Lvl up" item is covered by the "Blue stone" object on the main window after clicking the "King Midas" item.
+
+Expected result:
+The "Lvl up" item is shown fully on the main window after clicking the "King Midas" item.
+
+Additional Information:	All objects of main window can be covered by the "Blue stone" object in the random order
+
+	#3
+Summary: 		The "Sharp Arrows" pop-up window is covered by "Hall of Champions" after cursor positioning on the "Sharp Arrows" item
+Description:	The "Sharp Arrows" pop-up window is covered by "Hall of Champions" window after cursor positioning on the "Sharp Arrows" item in the "Upgrades" block	
+Environment: 	Windows 7/64
+Priority:		urgent	
+Severity:		major	
+
+Steps To Reproduce:	
+1) Launch the game
+2) Click the "New game" button 
+3) Click to the "King Midas" item 
+4) Click to the "Champion" item 
+5) Place the cursor on the "Sharp Arrows" item
+6) Take a look at the "Sharp Arrows" pop-up window
+
+Actual result:
+The "Sharp Arrows" pop-up window is covered by "Hall of Champions" window after cursor positioning on the "Sharp Arrows" item in the "Upgrades" block.
+
+Expected result:
+The "Sharp Arrows" pop-up window is shown fully in front of "Hall of Champions" window after cursor positioning on the "Sharp Arrows" item in the "Upgrades" block.
+
+Additional Information:	Thos bug can be reproduced for another items in the "Upgrades" block
+
