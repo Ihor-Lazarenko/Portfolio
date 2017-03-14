@@ -1,0 +1,26 @@
+Testing of new user registration with correct data
+
+Summary:
+
+Testing of new user registration with correct data (the email address, the first name, the last name, the password)
+
+Preconditions:
+
+The "Authentication" page is opened
+
+#	Step actions																						Expected Results		
+1	Type to the "Email address" field in the "Create an account" block correct email					The typed email is displayed in the field		
+ 
+2	Click the "Create an account" button																The "Your personal information" block is shown		
+ 
+3	Type to the "First name" and "Last name" fields correct data (using the latin or 					The typed data is displayed in the fields of registration form		
+	cirillyc symbols, without special symbols and white spaces, words with length 31 and 32 symbols)
+	
+4	Type to the "Password" field correct data (five characters minimum, 								The typed data is displayed in the "Password" field		
+	without special symbols and white spaces)
+	
+5	Choose the date of Birth																			The date of Birth is displayed in the registration form		
+ 
+6	Click the "Register" button																			The message "Your account has been created" is displayed. The "My account" page is opened		
+
+

@@ -1,0 +1,35 @@
+Testing of new user registration with incorrect data
+
+Summary:
+
+Testing of new user registration with incorrect data (the email address, the first name, the last name, the password)
+
+Preconditions:
+ 
+The "Authentication" page is opened
+
+#	Step actions	Expected Results		
+1	Type to the "Email address" field in the "Create an account" block email with incorrect format 			The "Email address" field is marked in red		
+	(non-Latin characters, special symbols, without @, without domain)
+
+2	Click the "Create an account" button																	The "Invalid email address" message is shown		
+
+3	Type to the "Email address" field in the "Create an account" block correct email						The typed email is displayed in the field		
+
+4	Click the "Create an account" button																	The "Your personal information" block is shown		
+
+5	Type to the "First name" and "Last name" fields incorrect data 											The "First name" and "Last name" fields are marked in red	
+	(using the numbers, special symbols like [|]~!@/*$%^&#()?<>'")
+
+6	Type to the "First name" and "Last name" fields incorrect text data (longer then 32 symbols)			The "First name" and "Last name" fields are marked in red. 		
+																											The message "lastname is too long. Maximum length: 32, firstname is too long. Maximum length: 32" is shown	
+
+7	Type to the "First name" and "Last name" fields only white spaces										The "First name" and "Last name" fields are marked in red		
+
+8	Leave the "First name" and "Last name" fields  empty													The "First name" and "Last name" fields are marked in red		
+
+9	Type to the "Password" field incorrect data (using the white spaces, the word shorter 					The "Password" field is marked in red		
+	than 5 characters, special symbols like [|]~!@/*$%^&#()?<>'")
+10	Leave the "Password" field empty	The "Password" field is marked in red		
+ 
+11	Click the "Create an account" button																	The account wasn't created. The message "There are 3 errors: lastname is invalid. firstname is invalid. passwd is invalid" is shown		
