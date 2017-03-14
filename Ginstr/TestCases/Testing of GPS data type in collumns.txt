@@ -1,0 +1,69 @@
+GPS field testing
+
+Summary
+Testing of "GPS" data type in collumns.
+
+Preconditions
+Login on Ginstr (https://158.181.53.211/ssoserver/) 
+Create table with "GPS" data type in column.
+
+#	Step actions																					Expected Results		 	 
+1	Click "add record" button on the top of window. Input to the "latitude" value -90, 				New record was added.
+	input to the "longitude" value -180 (correct values). Press Enter.
+
+2	Click "add record" button on the top of window. Input to the "latitude" value -91, 				New record wasn`t added. Messages "Latitude GPS value is out of bounds" 
+	input to the "longitude" value -181 (incorrect values). Press Enter.							and "LongitudeGPS value is out of bounds" appeared.
+
+3	Click "add record" button on the top of window. Input to the "latitude" value -90 				New record wasn`t added. Message "Longitude GPS value is out of bounds" appeared.
+	(correct value), input to the "longitude" value -181 (incorrect value). Press Enter.
+
+4	Click "add record" button on the top of window. Input to the "latitude" value -91 				New record wasn`t added. Message "Latitude GPS value is out of bounds" appeared.
+	(incorrect value), input to the "longitude" value -180 (correct value). Press Enter.
+
+5	Click "add record" button on the top of window. Input to the "latitude" value 90, 				New record was added. 
+	input to the "longitude" value 180 (correct values). Press Enter.
+
+6	Click "add record" button on the top of window. Input to the "latitude" value 91, 				New record wasn`t added. Messages "Latitude GPS value is out of bounds" and "LongitudeGPS value is out of bounds" appeared.
+	input to the "longitude" value 181 (incorrect values). Press Enter.
+
+7	Click "add record" button on the top of window. Input to the "latitude" value 91				New record wasn`t added. Message "Latitude GPS value is out of bounds" appeared.
+	(incorrect value), input to the "longitude" value 180 (correct value). Press Enter.
+
+8	Click "add record" button on the top of window. Input to the "latitude" value 90 				New record wasn`t added. Message "LongitudeGPS value is out of bounds" appeared.
+	(correct value), input to the "longitude" value 181 (incorrect value). Press Enter.
+
+9	Click "add record" button on the top of window. Input to the "latitude" and 					New record was added. 
+	"longitude" fractional values like 80,1 and 170,1.Press Enter.
+
+10	Click "add record" button on the top of window. Input to the "latitude" and 					New record was added. 
+	"longitude" fractional values like 80.1 and 170.1.Press Enter.
+
+12	Click "add record" button on the top of window. Input to the "latitude" and "longitude" 		New record wasn`t added. Messages "Latitude GPS value is out of bounds" and "LongitudeGPS value is out of bounds" appeared.
+	some invalid fractional values like 90.1 and 180.1.Press Enter. 
+	Repeat action with using ","
+	
+13	Click "add record" button on the top of window. Leave "latitude" and "longitude" 				New record wasn`t added. Messages "Latitude invalid input" and "Longitude invalid input" appeared.
+	fields empty.Press Enter.
+
+14	Click "add record" button on the top of window. Fill in "latitude" and "longitude" 				New record wasn`t added. New record wasn`t added. Messages "Latitude invalid input" and "Longitude invalid input" appeared.
+	fields with white spaces. Press Enter.
+
+15	Click "add record" button on the top of window. Input in "latitude" and "longitude" 			New record wasn`t added. Messages "Latitude invalid input" and "Longitude invalid input" appeared.
+	fields  values with unacceptable symbol like [. Press Enter.
+	Repeat action with using of  next symbols:  |] ~!@/*$%^&#()?<>'"
+
+16	Click "add record" button on the top of window. Input in "latitude" and "longitude" 			New record wasn`t added. Messages "Latitude invalid input" and "Longitude invalid input" appeared.
+	fields  values with letters (for example Aa). Press Enter.
+
+17	Click "add record" button on the top of window. Input to the "latitude" and "longitude" 		New record was added.
+	values "0" and "0" .Press Enter.
+
+18	Click "add record" button on the top of window. Input to the "latitude" and "longitude" 		New record was added, spaces was trimmed (result - "11")
+	values with white spaces between numbers like "1  1"  .Press Enter.
+
+19	Click "add record" button on the top of window. Input to the "latitude" and "longitude" 		New record wasn`t added. Messages "Latitude GPS value is out of bounds" and "LongitudeGPS value is out of bounds" appeared.
+	some invalid fractional values like 90.00001 and 180.00001.Press Enter. 
+	Repeat action with using ","
+
+20	Click "add record" button on the top of window. Input to the "latitude" and "longitude" 		New record was added, spaces was trimmed (result - "90")
+	values with white spaces in the begining: " 90".Press Enter.
